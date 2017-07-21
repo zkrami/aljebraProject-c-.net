@@ -1,0 +1,379 @@
+﻿Build started 6/7/2015 9:12:25 AM.
+     1>Project "C:\Users\ASUS\Desktop\Finale\Finale\Finale.vcxproj" on node 2 (Build target(s)).
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "MetroFramework". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "MetroFramework.Design". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "MetroFramework.Fonts". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\\" /AIC:\Windows\Microsoft.NET\Framework\v3.5\ /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\\" /AIC:\Windows\Microsoft.NET\Framework\v3.0\ /AIC:\Windows\Microsoft.NET\Framework\v2.0.50727\ /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Finale.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /FUC:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /analyze- /errorReport:prompt /d1clr:nostdlib Finale.cpp grid.cpp Hstart.cpp matrix_form.cpp
+         Finale.cpp
+     1>c:\users\asus\desktop\finale\finale\poly.h(118): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(128): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(129): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(137): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(169): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\equation.h(33): warning C4005: 'Error' : macro redefinition
+                 c:\users\asus\desktop\finale\finale\matrix.h(39) : see previous definition of 'Error'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(19): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(19): error C2871: 'Forms' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(20): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(20): error C2871: 'Controls' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(21): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(21): error C2871: 'Animation' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(22): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(22): error C2871: 'Components' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(23): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(24): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(24): error C2871: 'Fonts' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(25): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(25): error C2871: 'Interfaces' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(26): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(26): error C2871: 'Native' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(27): error C2871: 'MetroFramework' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(34): error C2504: 'MetroForm' : base class undefined
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(158): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(158): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(159): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(159): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(160): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(160): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(161): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(161): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(162): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(162): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(163): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(163): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(164): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(164): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(165): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(165): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(166): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(166): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(167): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(167): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(168): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(168): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(169): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(169): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(170): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(170): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(171): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(171): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(173): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(173): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(173): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(174): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(174): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(175): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(175): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(175): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(176): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(176): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(176): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(177): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(177): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(177): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(178): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(178): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(179): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(179): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(180): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(180): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(180): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(181): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(181): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(181): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(182): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(182): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(182): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(183): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(183): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(183): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(184): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(184): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(184): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(185): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(185): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(186): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(186): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(187): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(187): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(187): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(188): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(188): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(188): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(189): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(189): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(189): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(190): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(190): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(191): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(191): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(191): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(192): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(192): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(193): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(193): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(193): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(194): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(194): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(194): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(195): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(195): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(195): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(196): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(196): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(196): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(197): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(197): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(197): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(198): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(198): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(198): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(199): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(199): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(199): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(200): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(200): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(200): fatal error C1003: error count exceeds 100; stopping compilation
+         grid.cpp
+     1>c:\users\asus\desktop\finale\finale\poly.h(118): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(128): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(129): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(137): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(169): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\equation.h(33): warning C4005: 'Error' : macro redefinition
+                 c:\users\asus\desktop\finale\finale\matrix.h(39) : see previous definition of 'Error'
+     1>c:\users\asus\desktop\finale\finale\grid.h(13): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\grid.h(13): error C2871: 'Forms' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\grid.h(14): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\grid.h(14): error C2871: 'Controls' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\grid.h(15): error C2065: 'MetroGrid' : undeclared identifier
+     1>c:\users\asus\desktop\finale\finale\grid.h(15): error C2065: 'MetroGridt' : undeclared identifier
+     1>c:\users\asus\desktop\finale\finale\grid.h(15): error C2448: 'get_matrix_from_formt' : function-style initializer appears to be a function definition
+     1>c:\users\asus\desktop\finale\finale\grid.h(24): error C2061: syntax error : identifier 'MetroGrid'
+     1>c:\users\asus\desktop\finale\finale\grid.h(25): error C2065: 'MetroGridt' : undeclared identifier
+     1>c:\users\asus\desktop\finale\finale\grid.h(25): error C2227: left of '->Rows' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\asus\desktop\finale\finale\grid.h(25): error C2227: left of '->Count' must point to class/struct/union/generic type
+     1>c:\users\asus\desktop\finale\finale\grid.h(25): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Hstart.cpp
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(16): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(16): error C2871: 'Forms' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(22): error C2504: 'MetroForm' : base class undefined
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(68): error C2039: 'SuspendLayout' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(82): error C2039: 'AutoScaleDimensions' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(83): error C2039: 'AutoScaleMode' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(84): error C2039: 'BackgroundImage' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(85): error C2039: 'BackImage' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(86): error C2039: 'ClientSize' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(87): error C2039: 'Controls' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(87): error C2227: left of '->Add' must point to class/struct/union/generic type
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(88): error C2039: 'Icon' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(89): error C2039: 'ImeMode' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(90): error C2039: 'MaximizeBox' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(91): error C2039: 'MinimizeBox' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(92): error C2039: 'Name' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(93): error C2039: 'Resizable' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(94): error C2039: 'Style' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(94): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(94): error C2065: 'Orange' : undeclared identifier
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(95): error C2039: 'Load' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(96): error C2039: 'MouseDoubleClick' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(98): error C2039: 'ResumeLayout' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+     1>c:\users\asus\desktop\finale\finale\Hstart.h(124): error C2039: 'Close' : is not a member of 'Finale::Hstart'
+                 c:\users\asus\desktop\finale\finale\Hstart.h(21) : see declaration of 'Finale::Hstart'
+         matrix_form.cpp
+     1>c:\users\asus\desktop\finale\finale\poly.h(118): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(128): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(129): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(137): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\poly.h(169): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\desktop\finale\finale\equation.h(33): warning C4005: 'Error' : macro redefinition
+                 c:\users\asus\desktop\finale\finale\matrix.h(39) : see previous definition of 'Error'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(19): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(19): error C2871: 'Forms' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(20): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(20): error C2871: 'Controls' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(21): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(21): error C2871: 'Animation' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(22): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(22): error C2871: 'Components' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(23): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(24): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(24): error C2871: 'Fonts' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(25): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(25): error C2871: 'Interfaces' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(26): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(26): error C2871: 'Native' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(27): error C2871: 'MetroFramework' : a namespace with this name does not exist
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(34): error C2504: 'MetroForm' : base class undefined
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(158): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(158): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(159): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(159): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(160): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(160): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(161): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(161): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(162): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(162): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(162): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(163): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(163): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(164): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(164): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(164): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(165): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(165): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(165): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(166): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(166): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(166): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(167): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(167): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(167): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(168): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(168): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(168): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(169): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(169): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(169): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(170): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(170): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(170): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(171): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(171): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(171): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(173): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(173): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(173): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(174): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(174): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(174): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(175): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(175): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(175): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(176): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(176): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(176): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(177): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(177): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(177): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(178): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(178): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(179): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(179): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(180): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(180): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(180): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(181): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(181): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(181): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(182): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(182): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(182): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(183): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(183): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(183): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(184): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(184): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(184): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(185): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(185): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(186): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(186): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(187): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(187): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(187): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(188): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(188): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(188): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(189): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(189): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(189): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(190): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(190): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(191): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(191): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(191): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(192): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(192): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(193): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(193): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(193): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(194): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(194): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(194): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(195): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(195): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(195): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(196): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(196): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(196): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(197): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(197): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(197): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(198): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(198): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(198): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(199): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(199): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(199): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(200): error C2653: 'MetroFramework' : is not a class or namespace name
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(200): error C2143: syntax error : missing ';' before '^'
+     1>c:\users\asus\desktop\finale\finale\matrix_form.h(200): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\ASUS\Desktop\Finale\Finale\Finale.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.67
