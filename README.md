@@ -1,9 +1,9 @@
 # aljebraProject-c-.net
 
-#this was a project to help students to do calculations on matrices such as transpose , inverse , eigenvalues .
+this was a project to help students to do calculations on matrices such as transpose , inverse , eigenvalues .
 
 
-#simple method to solve two kind of equations: 
+simple method to solve two kind of equations: 
 A system of linear multivariate equations .
 An univariate equation with real coefficients.
 
